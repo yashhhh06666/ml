@@ -34,6 +34,50 @@ until value met✅
 
 fact5*4*3*2*1*1 = ?
 
+------------------------------
+
+recurcive
+
+fact(n)=n*fact(n-1)
+n=5
+fact(5)=5*fact(5-1)  
+
+fact(5)=5*fact(4)
+fact(4)=4*fact(3)
+fact(5)=5*fact(2)
+fact(5)=5*fact(1)
+fact(5)=5*fact(0)
+
+back tracking -- return back 
+function -> fun Def. -> Code of Block -> Activation record(Memory Address)
+
+---------------------
+
+facto(5)=5*4*3*2*1
+
+
+loop - cycle - 
+loop( k= 5 to 1)
+
+result= result*k
+
+
+
+<!-- WE Have to learn  -->
+!.. (function , loop and Nested loop or array
+, Recursion .)
+
+-------------------------
+
+def Fact(n):
+    if n== 0:
+        return 1
+    else:
+        return n * Fact(n-1)
+
+--------------------
+
+Stack -> Lifo--500,99,77
 
 
 
