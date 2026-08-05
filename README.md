@@ -68,7 +68,8 @@ result= result*k
 , Recursion .)
 
 -------------------------
-
+     Day 3
+     
 def Fact(n):
     if n== 0:
         return 1
