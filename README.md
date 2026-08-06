@@ -79,6 +79,39 @@ def Fact(n):
 --------------------
 
 Stack -> LIFO--500,99,77
+-------------
+
+#       Day 4
+
+we install Pandas or install Django 
+or Sir nee nahi padhyai 
+
+fact. ke hi program hai.....................
+
+def add(n):
+    if n == 0:
+        return 0
+    else:
+        return n+add(n-1) 
+
+n = int(input("enter a number: "))
+z = add(n)
+
+print(z)
+
+iska output n number ko 
+n+n+n+n...+0 
+tak 
+
+
+
+#  ML  
+
+# What is Machine Learning 
+-> ML is the process in which a computer analyes data,learn patternfrom it,and make predicatoin or desicions automatically.
+
+# What is Learnig 
+ -> Learnig is the process of gaining knowledge or improving performance by using experience by using experience, practice, or data.
 
 
 
