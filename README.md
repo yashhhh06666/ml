@@ -114,7 +114,15 @@ tak
  -> Learnig is the process of gaining knowledge or improving performance by using experience by using experience, practice, or data.
 
 
+# Day 5
 
+Knowledge = information prodessing
+
+infomation = raw data processing 
+
+raw data = from the surrounding
+
+<!-- What is AI -->
 
 
 
