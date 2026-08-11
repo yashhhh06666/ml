@@ -124,6 +124,38 @@ raw data = from the surrounding
 
 <!-- What is AI -->
 
+# Day 6 
 
+Moduels 
+
+first mak a  main file
+
+and made anoter file called exe_mod
+import Main file ame 
+and another metod 
+from Main file ame import * 
+*("* this can imoprt all fun. from Main file ame ")
+
+dir("pandas")
+
+--------------------
+
+we have to learn 
+algebra, Static , Calculas , probelity
+
+Duler Theorm 
+
+<!-- topic Numpy  -->
+
+NumPy Provides Two Fundamental Object 
+1. N-dimensional Array Object 
+2. A Universal Function Object 
+
+zero= np.zeros((2, 3))
+This create a 2x3 arr, and every value must be 0 
+one= np.ones((3, 2))
+This create a 3x2 arr, and every value must be 1
+ranges= np.arange(0, 10, 2)
+this use as Start , Stop , Skip 
 
 
