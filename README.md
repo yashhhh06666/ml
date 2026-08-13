@@ -159,3 +159,69 @@ ranges= np.arange(0, 10, 2)
 this use as Start , Stop , Skip 
 
 
+# Day 7
+<!-- ML  -->
+first we give data to ML then analyses Past Data then trains , Then predicts Output 
+- Application 
+       Face rec. , Healthcare, alexa , swiggy, Weather Casting
+
+<!-- ML Types -->
+ML have Four Types 
+ 
+1. Supervised Learing
+    1. Regression("Agar o/p no. mai arra hai to vo Reg.")
+    2. Classification("Agar o/p word. mai arra hai to vo Classification.")
+2. Un-Supervised Learing
+
+3. reinforcement learning
+
+4. semi-supervised learning
+
+<!-- process involved in ML -->
+1. Data Gathering 
+2. Data pre-processing 
+3. Choose Model
+4. Train Model 
+5. Test Model
+6. Tune Model
+7. prediction("*BEST FITLINE*")
+
+<!-- Algorithms -->
+1. linear Reg.
+2. Logistic Reg.
+3. Decision Tree
+4. Random Forest 
+5. K Nearest Neighbors 
+
+
+
+ <!-- linear Reg. -->
+ liner reg. is a linear modeling approch to find a realn btw one or more independent Varaible 
+  .csv file = comma seprated value 
+    name,age,add,
+    aman,18,'bhopal'
+  .tsv file = Tab seprated value
+name    age     add 
+
+
+<!-- Implementation of liner Reg. -->
+1. Load the lib 
+importing the lib 
+
+2. Import the dataset 
+
+3. Visualize the Data 
+Visualize the dataset
+
+4. split the data into traning and testing set
+spliting the data into traning and testing set
+
+5. Fit simple Linear reg.
+
+6. predict the test set 
+
+7. Visualize the train set result
+
+8. Visualize the test set result 
+
+9. Calculating the residuals
