@@ -170,7 +170,7 @@ ML have Four Types
  
 1. Supervised Learing
     1. Regression("Agar o/p no. mai arra hai to vo Reg.")
-    2. Classification("Agar o/p word. mai arra hai to vo Classification.")
+    2. Classification("Agar o/p word ya text mai to vo hai to vo Classification.")
 2. Un-Supervised Learing
 
 3. reinforcement learning
