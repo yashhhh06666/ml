@@ -225,3 +225,14 @@ spliting the data into traning and testing set
 8. Visualize the test set result 
 
 9. Calculating the residuals
+
+# Day 8
+Today we make a new file called num_liner_reg.py 
+
+"num_liner_reg.py" have to use prediect Marks 
+
+<!-- ML Lib  -->
+seaborn use for Advance Graph
+pandas use for manuplation
+NumPy use for Array 
+matplotlib Use for make a Graph
