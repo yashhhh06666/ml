@@ -236,3 +236,19 @@ seaborn use for Advance Graph
 pandas use for manuplation
 NumPy use for Array 
 matplotlib Use for make a Graph
+
+# Day 9
+
+<!-- Linear Reg. -->
+
+X kya hI INDEPENDENT Var.
+Y kya hI DEPENDENT Var.
+
+Eqn of Lin
+<!-- MSE  -->
+MSE Squared Error (MSE) is a method us ed to measure how accurately a reg. Model predicts the traget Value 
+EX 
+suppose our model pre
+how to cal. MSE:
+ mse = 4+4+4+4/4
+    =5.35
