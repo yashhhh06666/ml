@@ -252,3 +252,24 @@ suppose our model pre
 how to cal. MSE:
  mse = 4+4+4+4/4
     =5.35
+
+# Day 10 
+
+<!-- Logistic Reg.  -->
+A superviesd ML algo. used for Classification problems. 
+is not used for Predicting Contionus Values .
+its predict the the probablity.
+
+based on sigmod(logistic) fun.
+
+-for ex 
+
+ 0.98 
+ 0.18 
+
+ types of Logistic
+ 1. binary
+ 2. Multinomial
+ 3. Ordinal
+
+and also make logistic_reg.py
