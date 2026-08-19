@@ -273,3 +273,11 @@ based on sigmod(logistic) fun.
  3. Ordinal
 
 and also make logistic_reg.py
+
+# Day 11
+
+ KNN (K Nearest Neibour)
+ Euclidian Method used to calculate distance b\w two points 
+ formula =\(\sqrt{(x_{1}+x_{2})^{2}+(y_{1}+y_{2})^{2}}\)
+
+ 
