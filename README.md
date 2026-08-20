@@ -280,4 +280,15 @@ and also make logistic_reg.py
  Euclidian Method used to calculate distance b\w two points 
  formula =\(\sqrt{(x_{1}+x_{2})^{2}+(y_{1}+y_{2})^{2}}\)
 
+ and also make a file called KNN.py
  
+
+ 
+ # Day 12 
+
+<!-- Decision Tree -->
+Decision Tree is a supervised ML Algo.used for classification and regression . It Make decision by Askin a series of que splitting the data into branches 
+
+Process of cleaning Data is called 
+
+also make a file called Decision_tree.py
