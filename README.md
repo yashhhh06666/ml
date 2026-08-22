@@ -1,41 +1,4 @@
-# ml(Machine Learning with Python)
-Internship 
------------
-Day 1 
-
-Basic Functions - Group of block - 
-
-Data Type Required:- Array
-
-Need to Improve - Loops, types of loops
-, Nested Loop ,Function, Type of Functions , Array , recursive functions 
-
---_-----_-----_----
-
-Day2 ---
-
-{• what is recursive functions •
--> recursive functions call it self unit the given condition is true }
-
-formula :- fact(n)=n*fact(n-1)
-           fact(0)=1
-
-example:- fact(5)=?
-
-n=5
-fact(5)=5*fact(5-1)
-fact(5)=5*fact(4)
-fact(4)=5*fact(3)
-.
-.
-.
-n times 
-until value met✅
-
-fact5*4*3*2*1*1 = ?
-
-------------------------------
-
+# ml
 recurcive
 
 fact(n)=n*fact(n-1)
@@ -68,8 +31,7 @@ result= result*k
 , Recursion .)
 
 -------------------------
-     Day 3
-     
+
 def Fact(n):
     if n== 0:
         return 1
@@ -78,9 +40,9 @@ def Fact(n):
 
 --------------------
 
-Stack -> LIFO--500,99,77
--------------
+Stack -> Lifo--500,99,77
 
+--------------------------------------------
 #       Day 4
 
 we install Pandas or install Django 
@@ -88,7 +50,9 @@ or Sir nee nahi padhyai
 
 fact. ke hi program hai.....................
 
+
 def add(n):
+   
     if n == 0:
         return 0
     else:
@@ -108,11 +72,10 @@ tak
 #  ML  
 
 # What is Machine Learning 
--> ML is the process in which a computer analyes data,learn patternfrom it,and make predicatoin or desicions automatically.
+-> ML is the process in which a computer analyes data,learn patternfrom it,and make predicatoin or desicions automatically
 
 # What is Learnig 
  -> Learnig is the process of gaining knowledge or improving performance by using experience by using experience, practice, or data.
-
 
 # Day 5
 
@@ -123,6 +86,8 @@ infomation = raw data processing
 raw data = from the surrounding
 
 <!-- What is AI -->
+
+-------------
 
 # Day 6 
 
@@ -165,16 +130,18 @@ first we give data to ML then analyses Past Data then trains , Then predicts Out
 - Application 
        Face rec. , Healthcare, alexa , swiggy, Weather Casting
 
-<!-- ML Types -->
+# ML Types -->
 ML have Four Types 
  
 1. Supervised Learing
+and its learned from the past 
+  mai mere pass input and output hota hai  
     1. Regression("Agar o/p no. mai arra hai to vo Reg.")
-    2. Classification("Agar o/p word ya text mai to vo hai to vo Classification.")
+    2. Classification("Agar o/p word. mai arra hai to vo Classification.")
 2. Un-Supervised Learing
-
+  mai mere pass input and output nahi hota hai
 3. reinforcement learning
-
+  
 4. semi-supervised learning
 
 <!-- process involved in ML -->
@@ -195,7 +162,7 @@ ML have Four Types
 
 
 
- <!-- linear Reg. -->
+ # linear Reg. -->
  liner reg. is a linear modeling approch to find a realn btw one or more independent Varaible 
   .csv file = comma seprated value 
     name,age,add,
@@ -235,17 +202,19 @@ Today we make a new file called num_liner_reg.py
 seaborn use for Advance Graph
 pandas use for manuplation
 NumPy use for Array 
-matplotlib Use for make a Graph
+matplotlib Use for make a Graph 
+
+<!-- Get Dataset -->
 
 # Day 9
 
-<!-- Linear Reg. -->
+# Linear Reg. -->
 
 X kya hI INDEPENDENT Var.
 Y kya hI DEPENDENT Var.
 
 Eqn of Lin
-<!-- MSE  -->
+# MSE  -->
 MSE Squared Error (MSE) is a method us ed to measure how accurately a reg. Model predicts the traget Value 
 EX 
 suppose our model pre
@@ -255,7 +224,7 @@ how to cal. MSE:
 
 # Day 10 
 
-<!-- Logistic Reg.  -->
+# Logistic Reg.  -->
 A superviesd ML algo. used for Classification problems. 
 is not used for Predicting Contionus Values .
 its predict the the probablity.
@@ -270,25 +239,75 @@ based on sigmod(logistic) fun.
  types of Logistic
  1. binary
  2. Multinomial
- 3. Ordinal
+ 3. Ordinal 
 
-and also make logistic_reg.py
+ # Day 11
 
-# Day 11
-
- KNN (K Nearest Neibour)
+# KNN (K Nearest Neibour)
  Euclidian Method used to calculate distance b\w two points 
  formula =\(\sqrt{(x_{1}+x_{2})^{2}+(y_{1}+y_{2})^{2}}\)
 
- and also make a file called KNN.py
- 
-
- 
  # Day 12 
 
-<!-- Decision Tree -->
+# Decision Tree -->
 Decision Tree is a supervised ML Algo.used for classification and regression . It Make decision by Askin a series of que splitting the data into branches 
 
 Process of cleaning Data is called 
 
+have two criterion 
+ 1. Gini 
+ 2. Entropy
+
 also make a file called Decision_tree.py
+
+
+# Day 13 
+
+overfiting and underfiting
+# overfiting -->
+Overfitting happens when a machine learning model learns the training data too well
+
+ -- Reason 
+    1. Noisy Garbage Data
+    2. Complex Model 
+
+How to Avoid 
+1. Removing Features 
+2. Early stopping the traning 
+3. Complex Model
+4. Traning the Model with Sufficient data
+5. using cross-validation 
+
+#  underfitting -->
+Underfitting happens when a machine learning model is too simple to learn the true patterns in data
+
+-- reason  
+1. Noisy Garbage Data
+2. Simple Data 
+
+How to Avoid
+1. More traning to the Model 
+2. Increase the model Complexity 
+
+# SVM  -->
+A Support Vector Machine (SVM) is a powerful supervised machine learning algorithm use for classification, though it can also handle regression tasks. 
+
+also called Hyperplane 
+
+# DAY 14 
+confusien matrix 
+types 
+
+<!-- Naive Bayes -->
+Naive Bayes is a supervised ML Classification algo. based on Bayes' Theorm      
+
+# Day 15
+
+# Random Forest -->
+Random Forest is a ml algo that uses for many decision trees to make better pred.
+
+<!-- random forest effective  -->
+1. high Accuracy 
+2. handle missing valu e
+3. reduse over fitting 
+
