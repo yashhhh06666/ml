@@ -311,3 +311,44 @@ Random Forest is a ml algo that uses for many decision trees to make better pred
 2. handle missing valu e
 3. reduse over fitting 
 
+# Day 16 
+
+basic Format of writing a code 
+
+1. import lib 
+like :-
+    import pandas when u have a csv file
+    import numpy when u matrix and array 
+    import matplotlib when u have to create a Graph 
+    import Seaborn its advance version of matplotlib 
+
+    *import sklearn its change Acrdn to What Algo. u use 
+
+2. Data set 
+     means when u have a CSV file insert it and access it 
+     then , 
+    give X, Y values 
+    X independent Vules
+    Y dependent Vules
+
+    When u did'nt have a CSV file 
+    U have to make a own data Dictinory 
+    then provide X and Y value 
+
+3. Train dataset and Give Algo name 
+    when u have a CSV file
+     
+     X_Train, X_Test, Y_Train,
+     Y_Test = train_test_split(X, Y,test_size=0.2, random_state=42)
+    <!-- Algo name  -->
+    model = RandomForestClassifier(n_estimators=100, random_state=42)
+    model.fit(X_Train, Y_Train)
+
+    when u did'nt have a CSV file
+    <!-- Algo name  -->
+    model = RandomForestClassifier(n_estimators=100, random_state=42)
+    model.fit(X_Train, Y_Train)
+
+4. Predicte a Data  
+    Now u have to make a var. that data pred. 
+     
