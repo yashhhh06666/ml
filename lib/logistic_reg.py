@@ -78,7 +78,7 @@ plt.xlabel('Hours Studied')
 plt.ylabel('Probability of Passing')    
 
 # add grid and legend 
-plt.grid(True)
+plt.grid(True) 
 plt.legend()
 
 #  Display Graph 
