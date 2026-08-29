@@ -352,3 +352,13 @@ like :-
 4. Predicte a Data  
     Now u have to make a var. that data pred. 
      
+# Day17
+
+What is web Scraping 
+ web Scraping is the automated process of extracting data from websites using software, bots, or custom scripts
+
+ Google is a Portal
+
+
+# Day !8
+Scrapy ............
